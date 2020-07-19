@@ -77,7 +77,7 @@ class Teamwork
         $invite->team_id      = $team;
         $invite->type         = 'invite';
         $invite->email        = $email;
-        $invite->roles        = $role;
+        $invite->role_id      = $role;
         $invite->accept_token = md5( uniqid( microtime() ) );
         $invite->deny_token   = md5( uniqid( microtime() ) );
         $invite->save();
