@@ -1,9 +1,9 @@
 {
-    "name": "mpociot/teamwork",
+    "name": "mylesdc/teamwork",
     "license": "MIT",
     "description": "User to Team associations for the Laravel 5 Framework",
     "keywords": ["Teams","Invite"],
-    "homepage": "http://github.com/mpociot/teamwork",
+    "homepage": "http://github.com/mylesdc/teamwork",
     "authors": [
         {
             "name": "Marcel Pociot",
