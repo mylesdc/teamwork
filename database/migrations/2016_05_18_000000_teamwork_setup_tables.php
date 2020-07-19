@@ -44,6 +44,7 @@ class TeamworkSetupTables extends Migration
             $table->increments('id');
             $table->bigInteger('user_id')->unsigned();
             $table->integer('team_id')->unsigned();
+            $table->integer('role_id')->nullable();
             $table->enum('type', ['invite', 'request']);
             $table->string('email');
             $table->string('accept_token');
